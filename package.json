@@ -1,0 +1,28 @@
+{
+  "name": "serverless-car-maintenance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Ho",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.16.1",
+    "@google-cloud/storage": "^1.5.2",
+    "@google-cloud/translate": "^1.1.0",
+    "@google-cloud/vision": "^0.14.0",
+    "cloud-functions-runtime-config": "^0.2.0",
+    "safe-buffer": "5.1.1",
+    "serverless-google-cloudfunctions": "^1.1.1"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.4.17",
+    "proxyquire": "1.8.0"
+  },
+  "cloud-repo-tools": {
+    "requiresKeyFile": true,
+    "requiresProjectId": true
+  }
+}
