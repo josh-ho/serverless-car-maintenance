@@ -32,3 +32,7 @@ functions:
     handler: parseImage
     events:
       - http: path
+  storage:
+    handler: storage
+    events:
+      - http: path
